@@ -21,6 +21,9 @@ type UploadShortsState={
 }
 
 export const uploadShortAction=async(prevState:UploadShortsState,formData:FormData): Promise<UploadShortsState>=>{
+    console.log(formData.get("title"));
+    console.log(formData.get("description"));
+    console.log(formData.get("video"));
     const result = uploadShortSchema.safeParse({
         title:formData.get("title") as string,
         description:formData.get("description") as string,
