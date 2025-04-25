@@ -1,6 +1,6 @@
 "use client";
-import React, { useRef, useState } from "react";
-import { ImageKitProvider, IKImage, IKUpload } from "imagekitio-next";
+import React, { useState } from "react";
+import { ImageKitProvider, IKUpload } from "imagekitio-next";
 import { IKUploadResponse } from "imagekitio-next/dist/types/components/IKUpload/props";
 import { Progress } from "./ui/progress";
 
