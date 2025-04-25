@@ -1,4 +1,3 @@
-"use server"
 import ShortCard from "@/components/shorts/ShortCard";
 import { prisma } from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";

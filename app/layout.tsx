@@ -38,8 +38,10 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <div className="mx-10">
-              <Navbar />
-              {children}
+              <Navbar/>
+              <main className="pt-16">
+                {children}
+              </main>
             </div>
           </ThemeProvider>
         </body>
